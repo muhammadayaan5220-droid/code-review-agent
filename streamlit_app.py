@@ -9,6 +9,8 @@ import json
 import pandas as pd
 from datetime import datetime
 import time
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from utils.api_client import APIClient
 
 # ─── Page Configuration ──────────────────────────────────────────────────────
